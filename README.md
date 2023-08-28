@@ -1,7 +1,7 @@
 # 404-page
 Becode exercise : learn semantic HTML and CSS positioning : create an error 404 page
 
-![Capture d'écran](Capture_ecran.png))
+![Capture d'écran](Capture_ecran.png)
 
 ## Briefing
 [Instructions](https://github.com/becodeorg/CRL-KELLER-6/blob/main/1.TRAIL/1.The-Field/4.HTML-CSS/0.fundamentals/05-error-404.md) for the exercise.
