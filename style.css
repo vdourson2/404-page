@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lato:wght@300;400;700&display=swap');
+
+* {
+    padding:0;
+    margin:0;
+}
+
+body {
+    width: 300px;
+    border: solid 1px lightgray;
+    border-radius: 8px;
+    box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);;
+    padding:20px;
+    margin:20px;
+    text-align: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 70px;
+    color:brown;
+    opacity:0.4;
+    font-family: 'Anton', sans-serif;    
+}
+
+h1:hover{
+    animation:flicker 0.5s infinite;
+}
+
+h2 {
+    font-family: 'Anton', sans-serif;
+}
+
+p {
+    font-family: sans-serif;
+    margin:10px 0
+}
+
+button {
+    background-color: brown;
+    opacity:0.7;
+    font-weight:bold;
+    padding:2px 5px;
+    border-radius:10px;
+}
+
+a {
+    text-decoration:none;
+    color:white;
+}
+
+@keyframes flicker {
+    0%{
+        opacity:0.4;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity:0.4;
+    }
+}
+
