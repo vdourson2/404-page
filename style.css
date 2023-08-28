@@ -6,13 +6,16 @@
 }
 
 body {
-    width: 300px;
+    width: 500px;
     border: solid 1px lightgray;
     border-radius: 8px;
     box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);;
-    padding:20px;
+    padding:50px 20px 100px 20px;
     margin:20px;
     text-align: center;
+    position:absolute;
+    top:100px;
+    left:200px;
 }
 
 h1 {
@@ -33,7 +36,8 @@ h2 {
 
 p {
     font-family: sans-serif;
-    margin:10px 0
+    margin:50px 0;
+    font-size:22px;
 }
 
 button {
